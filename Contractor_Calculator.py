@@ -14,7 +14,7 @@ def calculate_pay():
             user_hourly_rate = float(input("Enter hourly rate: "))
             hours_minutes_seconds = timedelta(hours= user_hours, minutes = user_minutes, seconds = user_seconds)
         
-    # convert user time to decimal format
+            # convert user time to decimal format
 
             time_in_decimal_format = round(user_hours * (1/1) + user_minutes * (1/60) + user_seconds * (1/3600),2)
 
